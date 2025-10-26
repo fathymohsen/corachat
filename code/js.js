@@ -4,6 +4,9 @@ let text=document.getElementById('text');
 let imgg=document.getElementById('img');
 let cora=document.getElementById('cora');
 let eqt=document.querySelector('.eqt');
+let a1=document.getElementById('a1');
+let a2=document.getElementById('a2');
+let a3=document.getElementById('a3');
 let t='black';
 let object={
     'محمد صلاح':['محمد صلاح هو لاعب كرة قدم مصري محترف ونجم نادي ليفربول الإنجليزي ومنتخب مصر، ويُعد من أفضل اللاعبين في العالم بفضل مهارته وأخلاقه العالية وصورته اهي',
@@ -60,8 +63,10 @@ for(let i in object){
     }
     
 }
-        eqt.style.display='none';
-text.value=''
+text.value='';
+a1.style.display='none';
+a2.style.display='none';
+a3.style.display='none';
 }}
 function choose(tt){
     if(tt=='a1'){
@@ -113,6 +118,7 @@ document.addEventListener('keydown',function(e){
     }
 
 })
+
 
 
 
