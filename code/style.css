@@ -147,7 +147,7 @@ header {
         margin: 5px 80px;
         width: 80px;
         position: relative;
-       bottom: 120px;
+       bottom: 150px;
     }
 }
 @media (max-width:650px) {
@@ -182,4 +182,5 @@ header {
 .eqt span:hover{
     background: green;
 }
+
 
