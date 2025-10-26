@@ -60,8 +60,8 @@ for(let i in object){
     }
     
 }
-text.value='';
-eqt.style.display='none';
+        eqt.style.display='none';
+text.value=''
 }}
 function choose(tt){
     if(tt=='a1'){
@@ -113,6 +113,7 @@ document.addEventListener('keydown',function(e){
     }
 
 })
+
 
 
 
