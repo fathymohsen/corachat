@@ -85,13 +85,11 @@ header {
     min-height: 40px;
     max-width: 60%;
     padding: 10px 7px;
-    text-align: right;
     border-radius: 20px;
     color: black;
     font-size: 25px;
     border: 2px solid black;
-    position: relative;
-    left: 33%;
+    margin-left: 35%;
 }
 .input{
     display: flex;
@@ -135,31 +133,15 @@ header {
         font-size: 9px;
     }
     #chat{
-      left:27% ; 
+      left:27%; 
       max-width:60%
     }
     #cora{
         width: 44px;
         height: 44px;
     }
-    .eqt span{
-        display: block;
-        margin: 5px 80px;
-        width: 80px;
-        position: relative;
-       bottom: 150px;
-    }
 }
-@media (max-width:650px) {
-        .eqt span{
-        display: block;
-        margin: 5px 60px;
-        width: 90px;
-        position: relative;
-        bottom: 200px;
-    }
-    
-}
+
 .eqt span{
     color: black;
     background: rgb(212, 207, 207);
@@ -171,16 +153,14 @@ header {
     font-weight:bold ;
     cursor: pointer;
     width: 60%;
-
+    display: block;
+    margin: auto;
+    margin-top: 10px ;
+       
 }
 .eqt{
-    text-align: center;
-    position: relative;
-    top: 220px;
-
+margin-top: 100px;
 }
 .eqt span:hover{
     background: green;
 }
-
-
