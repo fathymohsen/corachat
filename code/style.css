@@ -150,6 +150,16 @@ header {
        bottom: 120px;
     }
 }
+@media (max-width:650px) {
+        .eqt span{
+        display: block;
+        margin: 5px 60px;
+        width: 90px;
+        position: relative;
+        bottom: 150px;
+    }
+    
+}
 .eqt span{
     color: black;
     background: rgb(212, 207, 207);
@@ -160,7 +170,7 @@ header {
     text-align: center;
     font-weight:bold ;
     cursor: pointer;
-    width: 50%;
+    width: 60%;
 
 }
 .eqt{
