@@ -156,7 +156,7 @@ header {
         margin: 5px 60px;
         width: 90px;
         position: relative;
-        bottom: 150px;
+        bottom: 200px;
     }
     
 }
@@ -182,3 +182,4 @@ header {
 .eqt span:hover{
     background: green;
 }
+
